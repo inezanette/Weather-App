@@ -15,9 +15,20 @@
     <body>
     <div class="container">
         <div class="weather-app">
-        
-            <h1 id="city">
-            </h1>
+        <div class="container">
+            <div class="weather-app">
+                <form class="search-form" id="search-form">
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="city-input"
+                                class="form-control shadow-sm" />
+                        </div>
+                        <div class="col-3">
+                            <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm w-100" />
+                        </div>
+                        </div>
+                </form>
+            <h1 id="city"></h1>
             <ul>
                 <li id="current"></li>
                 <li id="date"></li>
@@ -36,16 +47,7 @@
                     <li>Wind: <span id="wind"> </span> km/h</li>
                 </ul>
             </div>
-            <div class="input-group mb-3" id="search-form">
-                <input type="text" class="form-control" id="city-input" autofocus="on" placeholder="Enter your City" aria-label="Recipient's username"
-                    aria-describedby="button-addon2">
-                <button class="btn btn-outline-primary" type="button">Search</button>
-            </div>
-            <div class="col-12">
-                <button class="btn btn-outline-primary w-100" id="current-location-button">
-                    Current Location
-                </button>
-            </div>
+           
             <br></br>
             <img src="media/sunny day.gif" alt="alice sunny day" />
             <div class="row">
