@@ -36,11 +36,23 @@ li {
   font-family: "alfa slab one", cursive;
 }
 
+.data {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 10px;
+  height: 22;
+  line-height: 1;
+  color: white;
+  font-family: "alfa slab one", cursive;
+  padding: 15px 0;
+}
+
 img {
   display: block;
   margin: 0 auto;
   width: 400px;
 }
+
 .row {
   text-align: center;
   font-family: "alfa slab one", cursive;
