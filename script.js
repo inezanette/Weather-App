@@ -56,3 +56,6 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSubmit);
 
 searchCity("New York");
+
+let celsiusLink=document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", displayCelsiusTemperature);
