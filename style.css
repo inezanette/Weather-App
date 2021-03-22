@@ -22,6 +22,11 @@ h1 {
   margin-bottom: 0;
 }
 
+.condition {
+  display: block;
+  margin: 0 auto;
+}
+
 h2 {
   text-align: center;
   font-family: "alfa slab one", cursive;
@@ -63,10 +68,10 @@ li {
   top: -32px;
 }
 
-img {
+.alice {
   display: block;
   margin: 0 auto;
-  width: 400px;
+  width: 300px;
 }
 
 .row {
