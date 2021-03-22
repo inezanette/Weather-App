@@ -38,6 +38,15 @@ h1 {
   font-family: "alfa slab one", cursive;
 }
 
+.active {
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
 ul {
   margin: 0;
   padding: 0;
